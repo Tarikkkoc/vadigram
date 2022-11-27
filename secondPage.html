@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+      </script>
+        <style type="text/tailwindcss">
+            @layer utilities {
+              .content-auto {
+                content-visibility: auto;
+              }
+            }
+          </style>
+    <title>Instagram</title>
+</head>
+<body style="background-color: #E5E5E9;">
+    <div style= "border-radius: 0px 0px 38px 38px;" class="w-full h-24 bg-white flex flex-wrap">
+        <div class="w-2/4 h-6">
+            <img src="pic/Time.svg" alt="">
+        </div>
+        <div class="flex w-2/4 h-6 items-center justify-end">
+            <img src="pic/Battery.svg" alt="" height="10.67" width="17">
+            <img src="pic/Wifi.svg" alt="" height="11" width="15.33">
+            <img src="pic/mobilveri.svg" alt="" height="11.33" width="20">
+        </div>
+            <div class="flex justify-around items-center w-11/12 h-11">
+                <input style="margin-left:10%; position: relative;" class="rounded-3xl w-full bg-slate-200" type="search" placeholder="     Search">
+                <img style="position: relative; right: 8%;" src="search_pic/Search1.svg" alt="" width="17" height="17.40">
+                <img src="search_pic/Scan.svg" alt="" width="24.26" height="19.85">
+            </div>
+  </div>
+  <div class="w-full h-16 flex justify-around items-center">
+    <div class="flex flex-wrap justify-center content-center flex-row w-1/5 h-12 bg-white rounded-3xl">
+      <img class="" src="search_pic/reels.svg" alt="" width="21" height="21">
+      <span class="ml-1"><strong>Reels</strong></span>
+  </div>
+  <div class="flex flex-wrap justify-center content-center flex-row w-1/5 h-12 bg-white rounded-3xl">
+      <img class="" src="search_pic/igtv.svg" alt="" width="23" height="23">    
+      <span class="ml-1"><strong>IGTV</strong></span>
+  </div>
+  <div class="flex flex-wrap justify-center content-center flex-row w-1/5 h-12 bg-white rounded-3xl">
+      <img class="" src="search_pic/store.svg" alt="" width="17" height="18.90">
+      <span class="ml-1"><strong>Store</strong></span>
+  </div>
+  <div class="flex flex-wrap justify-center content-center flex-row w-1/5 h-12 bg-white rounded-3xl">
+      <img class="" src="search_pic/Game.svg" alt="" width="19" height="19">
+      <span class="ml-1"><strong>Games</strong></span>
+  </div>
+  </div>
+  <div class="w-full h-auto flex justify-center">
+    <div class="w-5/12 h-auto flex flex-col mr-1 justify-center">
+      <img class="rounded-l-3xl mt-1 h-40" src="profile_pic/photo1.jpg" alt="" width="186" height="149">
+      <img class="rounded-l-3xl mt-1 h-40" src="profile_pic/photo3.jpg" alt="" width="186" height="158">
+      <img class="rounded-l-3xl mt-1 h-36" src="profile_pic/photo4.jpg" alt="" width="186" height="149">
+      <img class="rounded-l-3xl mt-2 h-40" src="profile_pic/photo6.jpg" alt="" width="186" height="149">
+      <img class="rounded-l-3xl mt-2 h-80" src="profile_pic/photo9.jpeg" alt="" width="183" height="319">
+    </div>
+    <div class="w-5/12 h-auto flex flex-col ml-1 items-center">
+      <img class="rounded-r-3xl mt-1 h-80" src="profile_pic/photo2.jpg" alt="" width="183" height="319">
+      <img class="rounded-r-3xl mt-2 h-36" src="profile_pic/photo5.jpeg" alt="" width="183" height="158">
+      <img class="rounded-r-3xl mt-2 h-40" src="profile_pic/photo7.jpg" alt="" width="186" height="149">
+      <img class="rounded-r-3xl mt-2 h-40" src="profile_pic/photox.jpg" alt="" width="186" height="149">
+      <img class="rounded-r-3xl mt-3 h-36" src="profile_pic/photo10.jpg" alt="" width="186" height="149">
+    </div>
+  </div>
+  <div class="h-24"></div>
+    <div style="border-top-left-radius: 40px; border-top-right-radius: 40px;" class="w-full h-24 bg-white fixed left-0 bottom-0">
+        <ul class="flex items-end justify-around h-12 pt-2">
+          <li onclick="home()">
+            <img src="pic/Home2.svg" alt="" width="24" height="25">
+        </li>
+        <li onclick="search()">
+            <img src="pic/Search2.svg" alt="" width="24" height="25">
+
+        </li>
+        <li>
+            <img src="pic/add.svg" alt="" width="24" height="25">
+
+        </li>
+        <li>              
+            <img src="pic/Heartplus.svg" alt="" width="25" height="32">
+
+        </li>
+        <li onclick="profile()">
+            <img src="pic/Profile.svg" alt="" width="24" height="25">
+
+        </li>
+    
+            <!-- <a class="homea" href="index.html"><img class="homea" src="Home2.svg" alt="" width="24" height="25"></a> -->
+        </ul>
+        <div class="flex items-end w-full h-12 justify-center">
+            <img class="h-2.5" src="pic/HomeIndicator.svg" alt="" width="134" height="5" style="color:black;">
+        </div>
+    </div>
+    <script src="kv.js"></script>
+</body>
+</html>

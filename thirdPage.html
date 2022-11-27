@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+      </script>
+        <style type="text/tailwindcss">
+            @layer utilities {
+              .content-auto {
+                content-visibility: auto;
+              }
+            }
+          </style>
+    <title>Instagram</title>
+</head>
+<body>
+    <div class="w-full h-7 flex">
+        <div class="w-2/5">
+            <img class="pt-1" src="pic/Time.svg" alt="">
+        </div>
+        <div class="flex items-center justify-end w-3/5">
+            <img src="pic/Battery.svg" alt="" height="10.67" width="17">
+            <img src="pic/Wifi.svg" alt="" height="11" width="15.33">
+            <img src="pic/mobilveri.svg" alt="" height="11.33" width="20">
+        </div>
+    </div>
+    <div class="w-full h-16 flex">
+        <div class="w-1/4 flex justify-center items-center">
+            <img src="index_pic/Setting.svg" alt="" height="35" width="30"> 
+        </div>
+        <div class="w-2/4 flex justify-center items-center">
+            <span style="color: #878D98;" class="font-sans"><strong>vadigram</strong></span>
+            <img class="ml-2" src="profile_pic/profile_info.svg" alt="" width="12" height="6">
+        </div>
+        <div class="w-1/4 flex flex-col justify-center items-center">
+            <img class="w-7 mt-1" src="profile_pic/Line 3.svg" alt="" >
+            <img class="w-5 mt-1 ml-1" src="profile_pic/Line 4.svg" alt="">
+        </div>
+    </div>
+    <div class="w-full h-24 flex">
+        <div class="flex flex-col w-2/6	justify-center items-end">
+            <span class="font-sans font-bold not-italic text-lg ">11.2K</span>
+            <span class="font-sans font-bold not-italic text-base text-slate-600">Followers</span>
+        </div>
+        <div class="flex w-2/6 justify-center items-center">
+            <img class="items-center w-20 h-16 border-4 border-solid w-16 h-16 rounded-3xl border-t-lime-500 border-l-amber-500 border-b-teal-800 border-r-blue-700" src="profile_pic/vadi.jpg" alt="">
+            <img style="position: absolute; top:17%; right:47%;" class="flex items-center justify-center" src="profile_pic/plus.svg" alt="">
+        </div>
+        <div class="flex flex-col w-2/6 justify-center items-start">
+            <span class="font-sans font-bold not-italic text-lg">34</span>
+            <span class="font-sans font-bold not-italic text-base text-slate-600">Following</span>
+        </div>
+    </div>
+    <div class="flex w-full h-auto">
+        <div class="w-5/12 flex justify-end">
+            <span class="font-sans font-bold not-italic text-base">Kurtlar Vadisi</span>
+        </div>
+        <div class="w-1/6 justify-center flex">
+            <img src="profile_pic/hr.svg" alt="">
+        </div>
+        <div class="w-5/12">
+            <span class="font-sans font-bold not-italic text-base">Derin Devlet</span>
+        </div>
+    </div>
+    <div class="w-full flex justify-center items-center">
+        <div class="w-80 text-center">
+            <span class="font-sans font-bold not-italic text-xs text-slate-600">Türkiye'nin bu puslu ve karanlık vadisinde anlattıklarımızın hiçbiri hayal ürünü değildir.</span>
+        </div>
+    </div>
+    <div class="w-full h-14 flex justify-around text-center">
+        <button class="shadow-black bg-gray-200 w-3/12 h-12 rounded-xl bg-slate-200 text-center font-extrabold font-sans text-sm">
+            Edit profile
+        </button>
+        <button class="shadow-black bg-gray-200 w-3/12 h-12 rounded-xl bg-slate-200 text-center font-extrabold font-sans text-sm">
+            Statistics
+        </button>
+        <button class="shadow-black bg-gray-200 w-3/12 h-12 rounded-xl bg-blue-500 text-center text-white font-extrabold font-sans text-sm">
+            Contact
+        </button>
+    </div>
+    <div class="flex justify-around items-start w-full h-24">
+        <div class="border-4 border-solid w-16 h-16 rounded-3xl">
+            <span class="relative flex items-center justify-center text-4xl"><strong>+</strong></span>
+            <span class="font-bold font-sans text-sm w-20 overflow-hidden text-ellipsis flex justify-center items-start relative top-4 right-3">Ekle</span>
+        </div>
+        <div style="width: 14.565%;" class="box-border h-16 rounded-3xl text-center border-2">
+            <img class="w-full h-full rounded-2xl" src="profile_pic/irak.jpeg" alt="" width="49" height="48">
+            <span class="font-bold font-sans text-sm">Irak</span>
+        </div>
+        <div style="width: 14.565%;" class="box-border w-2/12 h-16 rounded-3xl text-center">
+            <img class="w-full h-full rounded-2xl" src="profile_pic/filistin.jpeg" alt="">
+            <span class="font-bold font-sans text-sm">Filistin</span>
+        </div>
+        <div style="width: 14.565%;" class="box-border w-2/12 h-16 rounded-3xl text-center">
+            <img class="w-full h-full rounded-2xl" src="profile_pic/gladio.jpg" alt="">
+            <span class="font-bold font-sans text-sm">Gladio</span>
+        </div>
+        <div style="width: 14.565%;" class="box-border w-2/12 h-16 rounded-3xl text-center">
+            <img class="w-full h-full rounded-2xl" src="profile_pic/vatan.jpg" alt="">
+            <span class="font-bold font-sans text-sm">Vatan</span>
+        </div>
+    </div>
+    <div class="h-2"></div>
+    <div class="w-full h-auto">
+        <ul class="flex items-center justify-around">
+            <li>
+                <img src="profile_pic/icon1.svg" alt="" width="19" height="20">
+            </li>
+            <li>
+                <img src="profile_pic/icon2.svg" alt="" width="21.88" height="21.88">
+            </li>
+                <img src="profile_pic/icon3.svg" alt="" width="23" height="23">
+            <li>
+                <img src="profile_pic/icon4.svg" alt="" width="29" height="25">
+            </li>
+                <img src="profile_pic/icon5.svg" alt="" width="23" height="24">
+            <li>
+                <img src="profile_pic/icon6.svg" alt="" width="17.2" height="21.88">
+            </li>
+        </ul>
+    </div>
+    <div class="w-full h-60 flex ml-1">
+        <div style="width:55% ;" class="h-full ml-2 mt-5">
+            <img class="h-full w-full rounded-tl-2xl" src="profile_pic/konsey.jpeg" alt="">
+        </div>
+        <div style="width:37.5% ;" class="h-full ml-3 mt-5">
+            <img style="height: 48%;" class="w-full rounded-tr-2xl" src="profile_pic/doguesrefoglu.jpg" alt="">
+            <img style="height: 48%;" class="w-full mt-2" src="profile_pic/aslanakbey.jpg" alt="">
+        </div>
+    </div>
+    <div class="w-full h-60 flex ml-1">
+        <div style="width:55% ;" class="h-full ml-2 mt-7 flex">
+            <img style="width: 48.8%;" class="h-32 rounded-bl-2xl" src="profile_pic/kumarhane.jpg" alt="">
+            <img style="width: 48.8%;" class="h-32 ml-2" src="profile_pic/photo1.jpg" alt="">
+        </div>
+        <div style="width:37.5% ;" class="h-full ml-3 mt-7">
+            <img class="h-32 w-full rounded-br-2xl" src="profile_pic/polatkumar.jpg" alt="">
+        </div>
+    </div>
+    <div class="h-10"></div>
+    <div style="border-top-left-radius: 40px; border-top-right-radius: 40px;" class="w-full h-24 bg-white fixed left-0 bottom-0">
+        <ul class="flex items-end justify-around h-12 pt-2">
+            <li onclick="home()">
+                <img src="pic/Home2.svg" alt="" width="24" height="25">
+            </li>
+            <li onclick="search()">
+                <img src="pic/Search.svg" alt="" width="24" height="25">
+            </li>
+            <li>
+                <img src="pic/add.svg" alt="" width="24" height="25">
+    
+            </li>
+            <li>              
+                <img src="pic/Heartplus.svg" alt="" width="25" height="32">
+    
+            </li>
+            <li onclick="profile()">
+                <img src="pic/Profile1.svg" alt="" width="24" height="25">
+    
+            </li>
+            <!-- <a class="homea" href="index.html"><img class="homea" src="Home2.svg" alt="" width="24" height="25"></a> -->
+        </ul>
+        <div class="flex items-end w-full h-12 justify-center">
+            <img class="h-2.5" src="pic/HomeIndicator.svg" alt="" width="134" height="5" style="color:black;">
+        </div>
+    </div>
+    <script src="kv.js"></script>
+</body>
+</html>

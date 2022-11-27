@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+      </script>
+        <style type="text/tailwindcss">
+            @layer utilities {
+              .content-auto {
+                content-visibility: auto;
+              }
+            }
+          </style>
+    <title>Instagram</title>
+</head>
+<body style="background-color: #E5E5E9;">
+    <div class="w-full h-7 flex">
+        <div class="w-2/5">
+            <img class="pt-1" src="pic/Time.svg" alt="">
+        </div>
+        <div class="flex items-center justify-end w-3/5">
+            <img src="pic/Battery.svg" alt="" height="10.67" width="17">
+            <img src="pic/Wifi.svg" alt="" height="11" width="15.33">
+            <img src="pic/mobilveri.svg" alt="" height="11.33" width="20">
+        </div>
+    </div>
+    <div class="w-full h-16 flex">
+        <div class="w-1/4 flex justify-center items-center">
+            <img src="index_pic/Setting.svg" alt="" height="35" width="30"> 
+        </div>
+        <div class="w-2/4 flex justify-center items-center">
+            <img src="index_pic/instagram.svg" alt="" width="120" height="60">
+        </div>
+        <div class="w-1/4 flex justify-center items-center">
+            <img src="index_pic/message.svg" alt="" width="38" height="45">
+        </div>
+    </div>
+    <div class="w-full h-28 box-border overflow-auto">
+        <ul class="w-full flex items-start justify-start">
+            <li class="flex flex-col items-center justify-around p-1.5">
+                <div class="border-4 border-solid w-16 h-16 rounded-3xl">
+                    <span class="relative flex items-center justify-center text-4xl"><strong>+</strong></span>
+                </div>
+                <span class="w-20 overflow-hidden text-ellipsis flex justify-center items-start">Hikaye</span>
+            </li>
+            <li class="flex flex-col items-center justify-around p-1.5">
+                <div class="rounded-3xl border-4 border-solid w-16 h-16 rounded-3xl border-t-lime-500 border-l-amber-500 border-b-teal-800 border-r-blue-700">
+                    <img class="rounded-3xl w-full h-full" src="profile_pic/polat.jpg">
+                </div>
+                <span class="w-20 overflow-hidden text-ellipsis">polatalemdar</span>
+            </li>
+            <li class="flex flex-col items-center justify-around p-1.5">
+                <div class="rounded-3xl border-4 border-solid w-16 h-16 rounded-3xl border-t-lime-500 border-l-amber-500 border-b-teal-800 border-r-blue-700">
+                    <img class="rounded-3xl w-full h-full" src="profile_pic/cakir.jpg" alt="">
+                </div>
+                <span class="w-20 overflow-hidden text-ellipsis">suleymancakir</span>
+            </li>
+            <li class="flex flex-col items-center justify-around p-1.5">
+                <div class="rounded-3xl border-4 border-solid w-16 h-16 rounded-3xl border-t-lime-500 border-l-amber-500 border-b-teal-800 border-r-blue-700">
+                    <img class="rounded-3xl w-full h-full" src="profile_pic/memati.jpg" alt="">
+                </div>
+                <span class="w-20 overflow-hidden text-ellipsis">mematibas</span>
+            </li>
+            <li class="flex flex-col items-center justify-around p-1.5">
+                <div class="rounded-3xl border-4 border-solid w-16 h-16 rounded-3xl border-t-lime-500 border-l-amber-500 border-b-teal-800 border-r-blue-700">
+                    <img class="rounded-3xl w-full h-full" src="profile_pic/abdülhey.jpg" alt="">
+                </div>
+                <span class="w-20 overflow-hidden text-ellipsis">abdulheycoban</span>
+            </li>
+            <li class="flex flex-col items-center justify-around p-1.5">
+                <div class="rounded-3xl border-4 border-solid w-16 h-16 rounded-3xl border-t-lime-500 border-l-amber-500 border-b-teal-800 border-r-blue-700">
+                    <img class="rounded-3xl w-full h-full" src="profile_pic/halo.jpg" alt="">
+                </div>
+                <span class="w-20 overflow-hidden text-ellipsis flex justify-center items-start">halodayi</span>
+            </li>
+            <li class="flex flex-col items-center justify-around p-1.5">
+                <div class="rounded-3xl border-4 border-solid w-16 h-16 rounded-3xl border-t-lime-500 border-l-amber-500 border-b-teal-800 border-r-blue-700">
+                    <img class="rounded-3xl w-full h-full" src="profile_pic/lazziya.jpg" alt="">
+                </div>
+                <span class="w-20 overflow-hidden text-ellipsis">ziyayilmaz</span>
+            </li>
+            <li class="flex flex-col items-center justify-around p-1.5">
+                <div class="rounded-3xl border-4 border-solid w-16 h-16 rounded-3xl border-t-lime-500 border-l-amber-500 border-b-teal-800 border-r-blue-700">
+                    <img class="rounded-3xl w-full h-full" src="profile_pic/nevzat.jpg">
+                </div>
+                <span class="w-20 overflow-hidden text-ellipsis">nevzatyakisirboy</span>
+            </li>
+        </ul>
+    </div>
+    <div style="background-color: white;" class="w-11/12  ml-5 rounded-3xl">
+        <div class="w-full h-16 flex flex-row justify-center">
+            <div class="w-1/6">
+                <img style="margin-left: 20%; margin-top :12px;" class="rounded-full h-12 w-12 ml-" src="profile_pic/cakir.jpg" alt="">
+            </div>
+            <div style="margin-left: 15px;" class="w-2/4 pt-2.5">
+                <div><strong>suleymancakir</strong></div>
+                <div>Üsküdar</div>
+            </div>
+            <div class="w-1/6 flex items-center justify-end">
+                <img src="index_pic/Group 8.svg" alt="" width="30" height="20">
+            </div>
+        </div>
+        <div class="flex justify-center w-full h-auto">
+            <img class="w-10/12 h-80 rounded-2xl outline-none mt-1" src="profile_pic/neguzelistanbul.jpg" alt="" >
+        </div>
+        <div class="w-full flex justify-around mt-2">
+            <div class="flex ml-2">
+                <div>
+                    <img src="index_pic/like.svg" alt="" width="25" height="25"> 
+                </div>
+                <div>
+                    <span><strong>410</strong></span>
+                </div>
+            </div>
+            <div style="margin-left: -15%;" class="flex">
+                <div>
+                    <img src="index_pic/Comment.svg" alt="" width="25" height="30"> 
+                </div>
+                <div>
+                    <span><strong>2</strong></span>
+                </div>
+            </div>
+            <div style="margin-left: -10%;" class="flex">
+                <div>
+                    <img src="index_pic/share.svg" alt="" width="33" height="30"> 
+                </div>
+            </div>
+            <div class="flex">
+                <div>
+                    <img src="index_pic/save.svg" alt="" width="20" height="12"> 
+                </div>
+            </div>
+        </div>
+        <div class="flex">
+            <div style="width: 30%;" class="flex justify-end ml-8">
+                <div>
+                    <img class="rounded-full w-6 h-6 border-2 border-white" src="profile_pic/polat.jpg" alt="">
+                </div>
+                <div>
+                    <img style="margin-left: -30%;" class="rounded-full w-6 h-6 border-2 border-white" src="profile_pic/cakir.jpg" alt="">
+                </div>
+                <div>
+                    <img style="margin-left: -60%;" class="rounded-full w-6 h-6 border-2 border-white" src="profile_pic/memati.jpg" alt="">
+                </div>
+            </div>
+            <div class="w-4/12">
+                <span class="">polatalemdar,suleym..</span>
+            </div>
+            <div class="w-5/12 flex justify-end items-end mr-8">
+                <button class="inline-block px-4 py-1 bg-gray-200 text-gray-700 font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-gray-300 hover:shadow-lg focus:bg-gray-300 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-400 active:shadow-lg transition duration-150 ease-in-out">More</button>
+            </div>
+        </div>
+        <div class="w-11/12 ml-9 mt-2 mb-2">
+            <span class="yorum"><strong>suleymancakir</strong> Ne güzel İstanbul be...</span> <br> <br>
+            <span class="yorum"><strong>cerrahpasalihalit</strong> 39 say</span> <br>
+            <span class="yorum"><strong>suleymancakir</strong> sen de sülaleni say</span> <br>
+        </div>
+        <div class="h-2"></div>
+    </div>
+    <div style="background-color: white;" class="w-11/12  ml-5 rounded-3xl mt-4">
+        <div class="w-full h-16 flex flex-row justify-center">
+            <div class="w-1/6">
+                <img style="margin-left: 20%; margin-top :12px;" class="rounded-full h-12 w-12 ml-" src="profile_pic/polat.jpg" alt="">
+            </div>
+            <div style="margin-left: 15px;" class="w-2/4 pt-2.5">
+                <div><strong>polatalemdar</strong></div>
+                <div>Üsküdar, İstanbul</div>
+            </div>
+            <div class="w-1/6 flex items-center justify-end">
+                <img src="index_pic/Group 8.svg" alt="" width="30" height="20">
+            </div>
+        </div>
+        <div class="flex justify-center w-full h-auto">
+            <img class="w-10/12 h-80 rounded-2xl outline-none mt-1" src="profile_pic/polatt.jpg" alt="" >
+        </div>
+        <div class="w-full flex justify-around mt-2">
+            <div class="flex ml-2">
+                <div>
+                    <img src="index_pic/like.svg" alt="" width="25" height="25"> 
+                </div>
+                <div>
+                    <span><strong>234</strong></span>
+                </div>
+            </div>
+            <div style="margin-left: -15%;" class="flex">
+                <div>
+                    <img src="index_pic/Comment.svg" alt="" width="25" height="30"> 
+                </div>
+                <div>
+                    <span><strong>3</strong></span>
+                </div>
+            </div>
+            <div style="margin-left: -10%;" class="flex">
+                <div>
+                    <img src="index_pic/share.svg" alt="" width="33" height="30"> 
+                </div>
+            </div>
+            <div class="flex">
+                <div>
+                    <img src="index_pic/save.svg" alt="" width="20" height="12"> 
+                </div>
+            </div>
+        </div>
+        <div class="flex">
+            <div style="width: 30%;" class="flex justify-end ml-8">
+                <div>
+                    <img class="rounded-full w-6 h-6 border-2 border-white" src="profile_pic/polat.jpg" alt="">
+                </div>
+                <div>
+                    <img style="margin-left: -30%;" class="rounded-full w-6 h-6 border-2 border-white" src="profile_pic/cakir.jpg" alt="">
+                </div>
+                <div>
+                    <img style="margin-left: -60%;" class="rounded-full w-6 h-6 border-2 border-white" src="profile_pic/memati.jpg" alt="">
+                </div>
+            </div>
+            <div class="w-4/12">
+                <span class="">polatalemdar,suleym..</span>
+            </div>
+            <div class="w-5/12 flex justify-end items-end mr-8">
+                <button class="inline-block px-4 py-1 bg-gray-200 text-gray-700 font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-gray-300 hover:shadow-lg focus:bg-gray-300 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-400 active:shadow-lg transition duration-150 ease-in-out">More</button>
+            </div>
+        </div>
+        <div class="w-11/12 ml-9 mt-2 mb-2">
+            <span class="yorum"><strong>polatalemdar</strong> Avın eti yenmiyorsa amaç</span> <br>
+            <span class="yorum">sadece oyun oynamaktır.</span> <br> <br>
+            <span class="yorum"><strong>nevzatyakisirboy</strong> abi çok iyi çıkmışsın abi</span> <br>
+            <span class="yorum"><strong>nevzatyakisirboy</strong> on numarasın abi</span> <br>
+        </div>
+        <div class="h-2"></div>
+    </div>
+    <div class="h-2"></div>
+    <div style="border-top-left-radius: 40px; border-top-right-radius: 40px;" class="w-full h-24 bg-white fixed left-0 bottom-0">
+        <ul class="flex items-end justify-around h-12 pt-2">
+            <li onclick="home()">
+                <img src="pic/Home.svg" alt="" width="24" height="25">
+            </li>
+            <li onclick="search()">
+                <img src="pic/Search.svg" alt="" width="24" height="25">
+            </li>
+            <li>
+                <img src="pic/add.svg" alt="" width="24" height="25">
+    
+            </li>
+            <li>              
+                <img src="pic/Heartplus.svg" alt="" width="25" height="32">
+    
+            </li>
+            <li onclick="profile()">
+                <img class="h-7" src="pic/Profile.svg" alt="" width="24" height="2">
+    
+            </li>
+    
+            <!-- <a class="homea" href="index.html"><img class="homea" src="Home2.svg" alt="" width="24" height="25"></a> -->
+        </ul>
+        <div class="flex items-end w-full h-12 justify-center">
+            <img class="h-2.5" src="pic/HomeIndicator.svg" alt="" width="134" height="5" style="color:black;">
+        </div>
+    </div>
+<script src="kv.js"></script>
+</body>
+</html>
